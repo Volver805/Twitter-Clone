@@ -1,0 +1,92 @@
+html {
+  position: relative;
+  min-height:100%;
+  font-family:'Open Sans';  
+}
+  body {
+    background-color:#e6ecf0;
+    margin-bottom:0px;
+  }
+  
+  nav {
+    margin-bottom:20px;
+    background-color:white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    padding-top:10px;
+    line-height: 60px; 
+    background-color: #232a34;
+    color:white;
+  }
+  .modal-body {
+    margin: 10%;
+  }
+  #toggleSign{
+    margin-right:30px;
+  }
+  #errors-div {
+    position: relative;
+    top:40px;
+    color:red;
+    height:40px;
+  }
+  .tweet {
+    width: 70%;
+    margin-bottom:40px;
+    padding:0 40px;
+    padding-top:10px;
+    height:180px;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+    background-color:white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)  
+    }
+  .user-email {
+    display: inline-block;
+    font-weight:bold;
+    margin-bottom:10px;
+  }
+  .tweet-text {
+    height:60px;
+    overflow-y: auto;
+  }
+  .tweet-date {
+    float:right;
+    color:gray;
+    font-size:80%;
+  
+  }
+  .follow-btn {
+    float:right;
+    position: relative;
+  }
+  .unfollow-btn {
+    float:right;
+    position: relative;
+  }
+  .search-box {
+    margin-top:40px;
+  }
+  .search-box input {
+    margin-bottom:20px;
+  }
+  #tweet-box{
+     resize: none; 
+    height:140px;
+    margin-top:20px;
+  }
+  .tweet-form {
+    margin-top:30px;
+  }
+  .tweet-form input {
+    margin-top:20px;
+    width:100px;
+  }
+  .footer-fix{
+    height:100px;
+  }
